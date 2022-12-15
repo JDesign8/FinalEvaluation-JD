@@ -1,0 +1,89 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display:;
+  /* bodybuilders do this on stage  */
+  flex-direction: ;
+  /* Tetris players break these  */
+  background-color: black;
+}
+
+header{
+
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url(images/background.jpeg);
+  width: 100%;
+  height: 750px;
+  background-position: 45% 40%;
+
+
+ 
+  background-size: cover;
+  background-position: ??%;
+  /* ^ experiment with this number */
+  display: ;
+
+  
+
+}
+
+  #button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* STOP!!! No regular CSS properties should go below! This section is for the media queries */
+
+/* FREEBIE: here are the media queries, its up to YOU to choose the appropriate selectors and NEST them within the query properly. I will give you one for each media query */
+
+@media screen and (max-width:960px){
+  header section img{
+
+  }
+}
+
+
+@media screen and (max-width:740px){
+#shows ul{
+
+}
+
+}
